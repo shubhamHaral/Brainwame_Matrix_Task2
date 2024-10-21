@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "pizza shop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ../client",
+    "dev": " concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "pramodatre05@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colores": "^1.0.1",
+    "concurrently": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.3.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "stripe": "^12.13.0",
+    "uuid": "^9.0.0"
+  }
+}

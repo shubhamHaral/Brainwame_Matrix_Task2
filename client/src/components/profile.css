@@ -1,0 +1,103 @@
+/* General styles for the profile container */
+.profile-container {
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+
+/* Header style */
+.profile-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Profile details section */
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.profile-details label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.profile-details input[type="text"],
+.profile-details input[type="email"],
+.profile-details input[type="address"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Save button */
+.profile-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.logout-button {
+  width: 80px !important;
+  margin-left: auto;
+  margin-right: 0;
+}
+/* Save button hover effect */
+.profile-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Profile orders section */
+.orders-section {
+  margin-top: 30px;
+}
+
+.orders-section h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.orders-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.orders-section table th,
+.orders-section table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.orders-section table th {
+  background-color: #f2f2f2;
+}
+
+.orders-section table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .profile-container {
+    width: 95%;
+    padding: 20px;
+  }
+}

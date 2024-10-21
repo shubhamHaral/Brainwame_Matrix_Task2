@@ -1,0 +1,83 @@
+/* General styles for the register container */
+.register-container {
+  width: 450px;
+  margin: 50px auto;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* Header style */
+.register-container h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Input fields */
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container input[type="address"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Placeholder styling */
+.register-container input::placeholder {
+  color: #aaa;
+}
+
+/* Button styling */
+.register-container button {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.register-container button:hover {
+  background-color: #218838;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* Link styling */
+.register-container a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+/* Link hover effect */
+.register-container a:hover {
+  color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .register-container {
+    width: 90%;
+    padding: 20px;
+  }
+}

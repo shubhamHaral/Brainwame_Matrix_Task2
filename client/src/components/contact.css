@@ -1,0 +1,46 @@
+.contact-page {
+  padding: 20px;
+}
+
+.banner {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.enquiry-form {
+  width: fit-content;
+  margin: auto;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  display: block;
+  width: 491px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.enquiry-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+h2 {
+  text-align: center;
+}
+.google-map {
+  width: fit-content;
+  margin: auto;
+  margin-top: 70px;
+}
